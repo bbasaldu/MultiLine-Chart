@@ -1,0 +1,41 @@
+
+.CheckBoxes {
+    float: right;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+
+
+/*makes x axis disappear */
+.axis--x path {
+  display: none;
+}
+/* styles line draw on the graph */
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+/* the actual grid lines 
+color is light grey, slightly opaque and is styled to look crisp
+*/
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+/* axis of the grid lines are omitted since we dont want to overlap our exisitng axis lines*/
+.grid path {
+  stroke-width: 0;
+}
+
+div.country-list, div.svg-container{
+  float:right;
+}
+
+div.country-list-div {
+  float: right;
+  margin-right: 30%;
+  
+}
